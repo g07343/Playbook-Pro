@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DefensePlay" representedClassName="DefensePlay" syncable="YES">
+        <attribute name="drawCanvas" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player0Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player0X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player0Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player1Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player1X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player1Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player2Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player2X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player2Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player3Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player3X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player3Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player4Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player4X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player4Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player5Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player5X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player5Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player6Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player6X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player6Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player7Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player7X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player7Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player8Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player8X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player8Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player9Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player9X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player9Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player10Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player10X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player10Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="playName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snapshot" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="theme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="utilityPlayers" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="x0x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x0y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x1x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x1y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x2x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x2y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x3x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x3y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x4x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x4y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x5x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x5y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x6x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x6y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x7x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x7y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x8x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x8y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x9x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x9y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x10x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x10y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="OffensePlay" representedClassName="OffensePlay" syncable="YES">
+        <attribute name="drawCanvas" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player0Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player0X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player0Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player1Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player1X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player1Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player2Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player2X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player2Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player3Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player3X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player3Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player4Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player4X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player4Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player5Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player5X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player5Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player6Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player6X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player6Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player7Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player7X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player7Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player8Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player8X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player8Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player9Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player9X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player9Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player10Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player10X" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="player10Y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="playName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snapshot" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="theme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="utilityPlayers" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="x0x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x0y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x1x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x1y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x2x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x2y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x3x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x3y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x4x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x4y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x5x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x5y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x6x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x6y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x7x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x7y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x8x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x8y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x9x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x9y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x10x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x10y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="PlayBook" representedClassName="PlayBook" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DefensePlay" positionX="306" positionY="27" width="128" height="960"/>
+        <element name="OffensePlay" positionX="603" positionY="29" width="128" height="960"/>
+        <element name="PlayBook" positionX="189" positionY="180" width="128" height="58"/>
+        <element name="Player" positionX="-18" positionY="27" width="128" height="105"/>
+    </elements>
+</model>

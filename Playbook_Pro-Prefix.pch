@@ -1,0 +1,24 @@
+//
+//  Playbook_Pro-Prefix.pch
+//  Playbook Pro
+//
+//  Created by Matthew Lewis on 4/2/15.
+//  Copyright (c) 2015 com.fullsail. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef Playbook_Pro_Playbook_Pro_Prefix_pch
+#define Playbook_Pro_Playbook_Pro_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+
+#endif

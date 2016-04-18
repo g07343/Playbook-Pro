@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="yyn-Zv-dzp">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Amble-Bold.ttf">
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+            <string>Amble-Bold</string>
+        </mutableArray>
+        <mutableArray key="Amble-Regular.ttf">
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+            <string>Amble-Regular</string>
+        </mutableArray>
+        <mutableArray key="LeagueSpartan-Bold.otf">
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+            <string>LeagueSpartan-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LaunchController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LaunchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_bg.jpg" id="boM-Ae-J2E">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="800"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="modified_logo_noBG.png" id="Nan-Kj-L5E">
+                                <rect key="frame" x="337" y="0.0" width="350" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="I04-j2-4vr">
+                                <rect key="frame" x="362" y="306" width="300" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="26"/>
+                                <state key="normal" title="Create Roster" backgroundImage="new_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lMT-ro-2aL"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_selection_bg.png" id="JGR-u7-e24">
+                                <rect key="frame" x="206" y="85" width="613" height="510"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="B7p-Wh-8Rf">
+                                <rect key="frame" x="206" y="85" width="613" height="510"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="dBb-XG-p40"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="x8z-En-tbR"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="n9o-Mh-8KI">
+                                <rect key="frame" x="206" y="600" width="300" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="24"/>
+                                <state key="normal" title="Offensive Plays" backgroundImage="offense_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffW-Xa-f4Q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offense Play Count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B3g-4W-odO">
+                                <rect key="frame" x="292" y="715" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                <color key="textColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="1eQ-Eg-HXe">
+                                <rect key="frame" x="352" y="95" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OL3-Vb-fIM">
+                                        <rect key="frame" x="52" y="13" width="217" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" id="Qbk-13-7tn">
+                                        <rect key="frame" x="52" y="62" width="217" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="jZ8-ne-lLZ"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ma3-ij-CZf">
+                                        <rect key="frame" x="227" y="130" width="42" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hy-sY-S5C"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WPd-EQ-Giv">
+                                        <rect key="frame" x="52" y="130" width="67" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exs-LC-Pun"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.027450982481241226" green="0.0039215688593685627" blue="0.023529414087533951" alpha="0.84999999999999998" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="kFk-wi-Mp9">
+                                <rect key="frame" x="352" y="95" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cJs-2q-x7k">
+                                        <rect key="frame" x="52" y="13" width="223" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep this password safe!  Anyone can restore your backup using it!" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XVS-il-cG4">
+                                        <rect key="frame" x="38" y="36" width="260" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="Hbj-x0-7se">
+                                        <rect key="frame" x="52" y="96" width="217" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="I88-S8-TDM"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0cC-wo-oBa">
+                                        <rect key="frame" x="52" y="136" width="67" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PHT-TJ-ItW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6mX-fg-R0c">
+                                        <rect key="frame" x="221" y="136" width="54" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ny-CX-pVz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.02745098248" green="0.0039215688589999999" blue="0.023529414089999999" alpha="0.84999999999999998" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="6y2-J2-Yrq">
+                                <rect key="frame" x="352" y="95" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input the password that was used when the backup was created." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4bz-T3-GQY">
+                                        <rect key="frame" x="33" y="37" width="260" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="ndJ-oC-ZUp">
+                                        <rect key="frame" x="52" y="96" width="217" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="C02-wr-4x3"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yfJ-Il-UMn">
+                                        <rect key="frame" x="52" y="136" width="67" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="restoreClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXP-Ay-f7O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TqL-BC-esB">
+                                        <rect key="frame" x="221" y="136" width="54" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="restoreClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fpu-z7-yo0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Backup Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="25d-bR-S4n">
+                                        <rect key="frame" x="49" y="13" width="223" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.02745098248" green="0.0039215688589999999" blue="0.023529414089999999" alpha="0.84999999999999998" colorSpace="deviceRGB"/>
+                            </view>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="OlG-vO-PMC">
+                                <rect key="frame" x="519" y="600" width="300" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="24"/>
+                                <state key="normal" title="Defensive Plays" backgroundImage="defense_button.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uU6-Az-4n1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense Play Count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tli-Y6-GhQ">
+                                <rect key="frame" x="605" y="714" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                <color key="textColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dgj-qu-NS7">
+                                <rect key="frame" x="942" y="673" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="cloud_btn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAM-x1-PfW"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="Z1T-sB-zCN">
+                                <rect key="frame" x="352" y="639" width="320" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oBq-8d-hym">
+                                        <rect key="frame" x="218" y="87" width="54" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgL-15-ntj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9dE-YQ-eWf">
+                                        <rect key="frame" x="49" y="87" width="67" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oC4-JR-zbg"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the playbooks above you would like to back up." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rkl-6G-XEZ">
+                                        <rect key="frame" x="25" y="8" width="270" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.047058828175067902" green="0.011764707043766975" blue="0.039215687662363052" alpha="0.85999999999999999" colorSpace="deviceRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ERw-GK-3CT">
+                                <rect key="frame" x="32" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="help_btn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SzK-9j-Seg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d7n-hX-WUQ">
+                                <rect key="frame" x="942" y="85" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="roster_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gbp-y2-tEz"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="ce4-4K-Bs4">
+                                <rect key="frame" x="352" y="638" width="320" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a playbook to copy your play to." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xLo-Ah-zak">
+                                        <rect key="frame" x="8" y="20" width="300" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UIP-Oa-u2w">
+                                        <rect key="frame" x="127" y="76" width="67" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="22"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelCopy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N54-WM-82P"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8kk-rs-mVf">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This may take a while depending on the number of plays you have..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="od3-vA-zma">
+                                        <rect key="frame" x="246" y="232" width="532" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" id="IHP-fI-QCF">
+                                        <rect key="frame" x="494" y="358" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Migrating Playbooks to your device" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eRl-k8-Ggp">
+                                        <rect key="frame" x="340" y="199" width="344" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.21176470588235294" green="0.21176470588235294" blue="0.21176470588235294" alpha="0.95999999999999996" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="MRa-uj-7nR">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initial_tutorial.png" id="rzK-Th-cGv">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zrm-tc-uhM">
+                                        <rect key="frame" x="916" y="34" width="73" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="24"/>
+                                        <state key="normal" title="Got It!">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tutorialDone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pE2-He-Io4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="WAi-TY-0eW">
+                                <rect key="frame" x="112" y="0.0" width="800" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable iCloud?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W5Z-p1-hWq">
+                                        <rect key="frame" x="291" y="107" width="218" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="26"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p0a-wA-UKF">
+                                        <rect key="frame" x="99" y="153" width="602" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <string key="text">Enabling iCloud allows you to keep your playbooks and plays synced across your devices.  This is critical if you use Playbook Pro to manage a team on multiple devices (using the same iCloud account). </string>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="19"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YYN-eU-M3l">
+                                        <rect key="frame" x="99" y="239" width="602" height="196"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <string key="text">Using iCloud will ensure that anything added, deleted, or modified on one of your iPads will be updated for you across devices.  It's important to understand that using iCloud will store your players, individual plays, and playbooks using your iCloud account's storage.  This can be disabled anytime by going to Settings -&gt; iCloud -&gt; Manage Storage -&gt; (Select your device) -&gt; and disable the switch next to Playbook Pro.</string>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="19"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This setting cannot be changed later!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EXk-yB-FEg">
+                                        <rect key="frame" x="190" y="450" width="421" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="24"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="C9p-4G-eIq">
+                                        <rect key="frame" x="460" y="519" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RJf-2c-69g">
+                                        <rect key="frame" x="276" y="521" width="95" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k7X-Sw-3oc">
+                                        <rect key="frame" x="300" y="707" width="200" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="24"/>
+                                        <state key="normal" title="Tap when done">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVC-lu-EWy"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iCloud is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="05g-Sg-bjg">
+                                        <rect key="frame" x="345" y="564" width="76" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0yd-7t-wEH">
+                                        <rect key="frame" x="414" y="564" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YXM-BO-noD"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="addCancelButton" destination="WPd-EQ-Giv" id="BXN-OA-kgO"/>
+                        <outlet property="addNameButton" destination="Ma3-ij-CZf" id="cSL-XR-uwb"/>
+                        <outlet property="addNameField" destination="Qbk-13-7tn" id="4tM-ul-SDL"/>
+                        <outlet property="addNameView" destination="1eQ-Eg-HXe" id="YUr-qT-NlW"/>
+                        <outlet property="backupBtn" destination="dgj-qu-NS7" id="2vo-ch-Fe0"/>
+                        <outlet property="backupSelectCancel" destination="9dE-YQ-eWf" id="2Gv-62-snl"/>
+                        <outlet property="backupSelectDone" destination="oBq-8d-hym" id="Qnu-2q-Yw1"/>
+                        <outlet property="backupSelectView" destination="Z1T-sB-zCN" id="K3f-qv-QSF"/>
+                        <outlet property="bookList" destination="B7p-Wh-8Rf" id="huc-OJ-X2N"/>
+                        <outlet property="copyView" destination="ce4-4K-Bs4" id="2ac-Wx-46M"/>
+                        <outlet property="createNewBtn" destination="I04-j2-4vr" id="kcr-0t-S51"/>
+                        <outlet property="defenseBtn" destination="OlG-vO-PMC" id="t9M-CV-7ja"/>
+                        <outlet property="defenseCount" destination="tli-Y6-GhQ" id="T75-Ls-TsQ"/>
+                        <outlet property="helpButton" destination="ERw-GK-3CT" id="7KF-gQ-g4o"/>
+                        <outlet property="iCloudIntroButton" destination="k7X-Sw-3oc" id="Vy9-8p-sd0"/>
+                        <outlet property="iCloudIntroView" destination="WAi-TY-0eW" id="JlX-DT-Wnz"/>
+                        <outlet property="iCloudStatusLabel" destination="0yd-7t-wEH" id="fEF-x4-giu"/>
+                        <outlet property="icloudSwitch" destination="C9p-4G-eIq" id="ZO4-aL-O2b"/>
+                        <outlet property="offenseBtn" destination="n9o-Mh-8KI" id="dRk-gs-mTq"/>
+                        <outlet property="offenseCount" destination="B3g-4W-odO" id="q2V-Ez-h3N"/>
+                        <outlet property="passwordCancel" destination="0cC-wo-oBa" id="WJF-qr-txl"/>
+                        <outlet property="passwordField" destination="Hbj-x0-7se" id="DNP-2d-40G"/>
+                        <outlet property="passwordSave" destination="6mX-fg-R0c" id="vmn-lb-2ed"/>
+                        <outlet property="passwordView" destination="kFk-wi-Mp9" id="qSY-XW-3D4"/>
+                        <outlet property="restorePasswordCancel" destination="yfJ-Il-UMn" id="AFg-1d-24f"/>
+                        <outlet property="restorePasswordField" destination="ndJ-oC-ZUp" id="Yf3-ki-rMd"/>
+                        <outlet property="restorePasswordSubmit" destination="TqL-BC-esB" id="cmq-bp-Zhs"/>
+                        <outlet property="restorePasswordView" destination="6y2-J2-Yrq" id="Zgd-jZ-zcl"/>
+                        <outlet property="restoringView" destination="8kk-rs-mVf" id="l5B-R2-nJY"/>
+                        <outlet property="rosterButton" destination="d7n-hX-WUQ" id="PNb-3W-wI5"/>
+                        <outlet property="tableViewBackground" destination="JGR-u7-e24" id="hsT-iK-wvD"/>
+                        <outlet property="tutorialButton" destination="Zrm-tc-uhM" id="3HL-Aa-htG"/>
+                        <outlet property="tutorialImageView" destination="rzK-Th-cGv" id="rip-Ml-YC6"/>
+                        <outlet property="tutorialView" destination="MRa-uj-7nR" id="rUw-PD-fJD"/>
+                        <segue destination="eX4-Mh-MOW" kind="push" identifier="SetupRoster" id="Hjn-Fw-nhD"/>
+                        <segue destination="vw3-03-0Nu" kind="push" identifier="SelectPlays" id="5ts-eT-JVM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768" y="-543"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="b5K-l6-fbO">
+            <objects>
+                <viewController id="yyn-Zv-dzp" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aCK-DJ-Jir">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="wGq-tz-fuv" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="zOH-TQ-m70"/>
+                        <segue destination="aJz-LF-moV" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="94B-eq-nbp"/>
+                        <segue destination="HXa-Ub-xj0" kind="custom" identifier="sw_right" customClass="SWRevealViewControllerSegueSetController" id="elF-jH-6OZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cx3-12-dfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="985.92000000000007" y="849.92000000000007"/>
+        </scene>
+        <!--Play Settings View Controller-->
+        <scene sceneID="EHu-mS-x1W">
+            <objects>
+                <viewController id="wGq-tz-fuv" customClass="PlaySettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H5y-wc-LVb">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Play Title" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" id="Iog-RI-5Go">
+                                <rect key="frame" x="25" y="130" width="347" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autosave" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IVN-2u-p78">
+                                <rect key="frame" x="25" y="175" width="87" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rename Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="088-ac-cv3">
+                                <rect key="frame" x="25" y="87" width="121" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yHD-Ew-5sD">
+                                <rect key="frame" x="25" y="210" width="64" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Play Layout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Alx-jt-RAw">
+                                <rect key="frame" x="25" y="358" width="183" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opposing Team Quick Layout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MgN-K8-98s">
+                                <rect key="frame" x="25" y="505" width="270" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Kxp-ic-3uE">
+                                <rect key="frame" x="323" y="171" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="xwj-rx-SN5">
+                                <rect key="frame" x="25" y="242" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" title="Grass" backgroundImage="Grass_bg.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="zI5-gy-uwq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="QRz-nP-0kG">
+                                <rect key="frame" x="148" y="242" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" title="Chalkboard" backgroundImage="chalkboard_bg.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="v8p-bp-mQJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="AlS-xX-8v3">
+                                <rect key="frame" x="272" y="242" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" title="Whiteboard">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="o36-ML-LCd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="VC7-m8-wvb">
+                                <rect key="frame" x="272" y="391" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="spread_formation_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="ICj-xj-eyg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ZqE-lP-Hw1">
+                                <rect key="frame" x="148" y="391" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="i_formation_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="CCP-Ao-EQc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="BEb-ma-O3d">
+                                <rect key="frame" x="25" y="391" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="t_formation_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="yly-1u-aAX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ZSs-ot-qEK">
+                                <rect key="frame" x="272" y="536" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="46_opposing_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="aau-7d-Vwc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="PmE-bR-yMd">
+                                <rect key="frame" x="148" y="536" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="4_3_opposing_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="Gqp-Rr-fAD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pEV-2P-QyN">
+                                <rect key="frame" x="25" y="536" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="15"/>
+                                <state key="normal" backgroundImage="3_4_opposing_tile.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="OBk-Dn-Kqn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p6h-DX-sj2">
+                                <rect key="frame" x="25" y="649" width="347" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="20"/>
+                                <state key="normal" title="Print Play" backgroundImage="Button_Bg.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="4TY-ME-a7y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8mZ-d9-K04">
+                                <rect key="frame" x="25" y="709" width="347" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="20"/>
+                                <state key="normal" title="Reset Play" backgroundImage="Button_Bg.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="wGq-tz-fuv" eventType="touchUpInside" id="2aV-gH-olL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RNA-zP-MY0">
+                                <rect key="frame" x="104" y="28" width="189" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jWn-bk-pJs">
+                                <rect key="frame" x="25" y="21" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="help_btn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpTapped:" destination="wGq-tz-fuv" eventType="touchUpInside" id="dd1-fy-j1S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.058823529411764705" green="0.41176470588235292" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="autoSaveSwitch" destination="Kxp-ic-3uE" id="fli-6j-6xi"/>
+                        <outlet property="chalkButton" destination="QRz-nP-0kG" id="PQ3-1Q-46m"/>
+                        <outlet property="grassButton" destination="xwj-rx-SN5" id="JZb-3W-Wyv"/>
+                        <outlet property="opposingPlay1Button" destination="pEV-2P-QyN" id="css-S7-pdv"/>
+                        <outlet property="opposingPlay2Button" destination="PmE-bR-yMd" id="d0c-xK-d3z"/>
+                        <outlet property="opposingPlay3Button" destination="ZSs-ot-qEK" id="IPb-yq-Pyu"/>
+                        <outlet property="play1Button" destination="BEb-ma-O3d" id="RFT-hR-cYq"/>
+                        <outlet property="play2Button" destination="ZqE-lP-Hw1" id="ggG-vd-eFs"/>
+                        <outlet property="play3Button" destination="VC7-m8-wvb" id="3yY-t2-nTl"/>
+                        <outlet property="playName" destination="Iog-RI-5Go" id="hdB-Yc-Vm3"/>
+                        <outlet property="printButton" destination="p6h-DX-sj2" id="zHU-OX-ePz"/>
+                        <outlet property="resetButton" destination="8mZ-d9-K04" id="Ogt-pK-qTL"/>
+                        <outlet property="whiteButton" destination="AlS-xX-8v3" id="O2M-hT-Y6R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pb1-Tn-1Zi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2565.1199999999999" y="825.60000000000002"/>
+        </scene>
+        <!--Player Selection View Controller-->
+        <scene sceneID="iND-0P-Oxb">
+            <objects>
+                <viewController id="HXa-Ub-xj0" customClass="PlayerSelectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RZ3-fo-gy1">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vVk-mT-Xvw">
+                                <rect key="frame" x="60" y="0.0" width="90" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.41176470590000003" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="HXa-Ub-xj0" id="mO9-SK-3Lc"/>
+                                    <outlet property="delegate" destination="HXa-Ub-xj0" id="4OV-eS-GT3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.41176470590000003" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="playerTable" destination="vVk-mT-Xvw" id="vSg-HW-Jhp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uxl-On-AN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2056.3200000000002" y="2247.6800000000003"/>
+        </scene>
+        <!--Player Setup View Controller-->
+        <scene sceneID="ALz-3T-2lM">
+            <objects>
+                <viewController id="eX4-Mh-MOW" customClass="PlayerSetupViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nbJ-2a-0Z7">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roster_bg.jpg" id="J0G-Na-bIn">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="PxY-dW-7kg">
+                                <rect key="frame" x="524" y="44" width="500" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eX4-Mh-MOW" id="9KM-zA-Lu8"/>
+                                    <outlet property="delegate" destination="eX4-Mh-MOW" id="MbX-sT-Y5h"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ydq-GU-Cql">
+                                <rect key="frame" x="0.0" y="44" width="500" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eX4-Mh-MOW" id="piB-IN-HS4"/>
+                                    <outlet property="delegate" destination="eX4-Mh-MOW" id="YiS-OA-hqc"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gcb-da-3UH">
+                                <rect key="frame" x="262" y="44" width="500" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eX4-Mh-MOW" id="lLL-P5-oMD"/>
+                                    <outlet property="delegate" destination="eX4-Mh-MOW" id="e2j-v5-WYb"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" id="Spa-ry-hF5">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="sF1-ai-izS">
+                                        <rect key="frame" x="262" y="100" width="500" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="kA9-tc-xBw">
+                                                <rect key="frame" x="8" y="8" width="484" height="552"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.76078431372549016" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Rg-5X-9BY">
+                                                <rect key="frame" x="180" y="22" width="140" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="LeagueSpartan-Bold" family="League Spartan" pointSize="24"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v4o-xx-KRj">
+                                                <rect key="frame" x="31" y="22" width="52" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                                <state key="normal" title="Cancel">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onClick:" destination="eX4-Mh-MOW" eventType="touchUpInside" id="cap-w1-7SP"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Player Name" minimumFontSize="17" clearButtonMode="whileEditing" id="1If-Ix-tJp">
+                                                <rect key="frame" x="113" y="107" width="275" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                            </textField>
+                                            <pickerView contentMode="scaleToFill" id="sDR-bF-f1a">
+                                                <rect key="frame" x="27" y="209" width="430" height="162"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="eX4-Mh-MOW" id="YKT-qp-ThL"/>
+                                                    <outlet property="delegate" destination="eX4-Mh-MOW" id="Eam-uf-fk0"/>
+                                                </connections>
+                                            </pickerView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PLC-7L-PcJ">
+                                                <rect key="frame" x="15" y="107" width="55" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dFa-hh-8SU">
+                                                <rect key="frame" x="15" y="209" width="62" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JAz-lD-v4y">
+                                                <rect key="frame" x="428" y="22" width="41" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                                <state key="normal" title="Done">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onClick:" destination="eX4-Mh-MOW" eventType="touchUpInside" id="X55-yP-li3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aCp-PK-fnb">
+                                                <rect key="frame" x="198" y="416" width="89" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" backgroundImage="player_silhouette.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onClick:" destination="eX4-Mh-MOW" eventType="touchUpInside" id="gRj-fO-ZFp"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to take image!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jwO-k1-sDl">
+                                                <rect key="frame" x="172" y="489" width="141" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="12"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Ff-oB-phR">
+                                                <rect key="frame" x="15" y="385" width="62" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="16"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.33725490196078434" green="0.49411764705882355" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8BD-qn-o9d">
+                                <rect key="frame" x="325" y="100" width="380" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum Positions to complete Offense roster:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A89-wq-R63">
+                                        <rect key="frame" x="50" y="7" width="280" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fp6-3H-tAI">
+                                        <rect key="frame" x="23" y="94" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G7t-sZ-sAk">
+                                        <rect key="frame" x="23" y="123" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BpN-nt-9AS">
+                                        <rect key="frame" x="23" y="152" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlx-Ho-3o3">
+                                        <rect key="frame" x="23" y="181" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vOZ-Jd-pwc">
+                                        <rect key="frame" x="221" y="181" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nV7-dW-7UX">
+                                        <rect key="frame" x="347" y="8" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="close_btn.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closeRemaining:" destination="eX4-Mh-MOW" eventType="touchUpInside" id="ixz-fX-D6R"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZAc-aZ-gc2">
+                                        <rect key="frame" x="221" y="94" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rv7-dz-CXf">
+                                        <rect key="frame" x="221" y="123" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UE3-CJ-Koj">
+                                        <rect key="frame" x="221" y="152" width="180" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Regular" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.015686275437474251" alpha="0.80000000000000004" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6n3-og-cci"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="addImageButton" destination="aCp-PK-fnb" id="abc-HG-lZ1"/>
+                        <outlet property="addView" destination="Spa-ry-hF5" id="0kp-Iy-kMQ"/>
+                        <outlet property="closeRemaining" destination="nV7-dW-7UX" id="LZn-kq-Qwj"/>
+                        <outlet property="defenseTable" destination="PxY-dW-7kg" id="Ha3-Ww-F8N"/>
+                        <outlet property="doneButton" destination="JAz-lD-v4y" id="X26-Ds-1pw"/>
+                        <outlet property="nameInput" destination="1If-Ix-tJp" id="MGl-gk-EIF"/>
+                        <outlet property="offenseTable" destination="ydq-GU-Cql" id="wF5-Vb-jwW"/>
+                        <outlet property="positionPicker" destination="sDR-bF-f1a" id="5do-F2-IRT"/>
+                        <outlet property="positionsLabel1" destination="fp6-3H-tAI" id="AhS-iy-S8Q"/>
+                        <outlet property="positionsLabel2" destination="G7t-sZ-sAk" id="fpF-RU-ePz"/>
+                        <outlet property="positionsLabel3" destination="BpN-nt-9AS" id="sbQ-0K-khw"/>
+                        <outlet property="positionsLabel4" destination="rlx-Ho-3o3" id="ONi-zt-vt0"/>
+                        <outlet property="positionsLabel5" destination="ZAc-aZ-gc2" id="xfR-xe-uYU"/>
+                        <outlet property="positionsLabel6" destination="Rv7-dz-CXf" id="Nb3-AR-aNI"/>
+                        <outlet property="positionsLabel7" destination="UE3-CJ-Koj" id="cVc-Oy-VsP"/>
+                        <outlet property="positionsLabel8" destination="vOZ-Jd-pwc" id="ZcC-0J-NDL"/>
+                        <outlet property="remainingHeader" destination="A89-wq-R63" id="xwB-Gf-TPW"/>
+                        <outlet property="remainingView" destination="8BD-qn-o9d" id="ZgF-L6-Cnv"/>
+                        <outlet property="specialTable" destination="gcb-da-3UH" id="uQT-Z5-URw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXC-rV-4EY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675.2" y="-1543.6800000000001"/>
+        </scene>
+        <!--Play Selection-->
+        <scene sceneID="Ff1-QA-eg8">
+            <objects>
+                <viewController title="Play Selection" id="vw3-03-0Nu" customClass="PlaySelectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="udp-bI-FRx">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass_bg.jpg" id="OVZ-7b-LoO">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="j7P-7j-u1H">
+                                <rect key="frame" x="13" y="44" width="999" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="32" minimumInteritemSpacing="16" id="rAh-rm-aRP">
+                                    <size key="itemSize" width="212" height="181"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="demoCell" id="khS-sv-GVl" customClass="CollectionViewCell">
+                                        <rect key="frame" x="16" y="16" width="212" height="181"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MjA-lB-iSa">
+                                                    <rect key="frame" x="7" y="8" width="197" height="126"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3a8-bX-tYN">
+                                                    <rect key="frame" x="162" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <state key="normal" image="delete_icon.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kd0-zO-j5o">
+                                                    <rect key="frame" x="48" y="137" width="116" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WRU-q1-iDC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <state key="normal" image="copy_icon.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="deleteIcon" destination="3a8-bX-tYN" id="DIn-sT-IyO"/>
+                                            <outlet property="duplicateIcon" destination="WRU-q1-iDC" id="cKi-Od-FLQ"/>
+                                            <outlet property="playThumb" destination="MjA-lB-iSa" id="qad-wu-fus"/>
+                                            <outlet property="playTitle" destination="kd0-zO-j5o" id="CjB-pq-HGO"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="vw3-03-0Nu" id="ckF-vQ-Kvh"/>
+                                    <outlet property="delegate" destination="vw3-03-0Nu" id="aIo-Qe-nHk"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" id="Zds-D3-Ysn">
+                                <rect key="frame" x="393" y="650" width="300" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the plays you want to print.  Tap the button when finished." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kbN-jB-DVd">
+                                        <rect key="frame" x="16" y="2" width="270" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HQI-qr-WQ4">
+                                        <rect key="frame" x="81" y="62" width="138" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="15"/>
+                                        <state key="normal" title="Print Selected Plays">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printPlays:" destination="vw3-03-0Nu" eventType="touchUpInside" id="yby-FC-QAZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.75" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8uN-oD-eI7">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" id="wGd-9m-RcT">
+                                        <rect key="frame" x="256" y="44" width="512" height="724"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </containerView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="UUg-Bp-eUG">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play_selection.png" id="ADy-Cj-MZj">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6HB-bg-h0u">
+                                        <rect key="frame" x="905" y="698" width="79" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="24"/>
+                                        <state key="normal" title="Got It!">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tutorialDone:" destination="vw3-03-0Nu" eventType="touchUpInside" id="GUJ-fp-q4q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="z2C-KS-2u7"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="wGd-9m-RcT" id="tZJ-wb-e1G"/>
+                        <outlet property="playCollection" destination="j7P-7j-u1H" id="Zqq-uA-vyV"/>
+                        <outlet property="printView" destination="Zds-D3-Ysn" id="qWj-Sk-usA"/>
+                        <outlet property="selectionView" destination="8uN-oD-eI7" id="L1H-bX-JNI"/>
+                        <outlet property="tutorialDone" destination="6HB-bg-h0u" id="iG3-lF-Rgw"/>
+                        <outlet property="tutorialView" destination="UUg-Bp-eUG" id="zvq-w2-2P3"/>
+                        <segue destination="cu6-xI-yyb" kind="push" identifier="PlayCreation" id="Epq-vf-jUt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FN4-CD-aWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2297.2800000000002" y="-263.68000000000001"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hR5-Cc-mex">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aJz-LF-moV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tmo-Jx-SxY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lBi-Pp-mKA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5r-2U-xQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Test Item" id="lLw-Jd-biC">
+                    <connections>
+                        <outlet property="rightBarButtonItem" destination="gRd-Y4-6uS" id="w9p-mA-tnl"/>
+                    </connections>
+                </navigationItem>
+                <barButtonItem tag="1" title="Settings Item" id="gRd-Y4-6uS"/>
+            </objects>
+            <point key="canvasLocation" x="-231.36000000000001" y="-529.92000000000007"/>
+        </scene>
+        <!--Play Creation View Controller-->
+        <scene sceneID="myx-MQ-wMe">
+            <objects>
+                <viewController id="cu6-xI-yyb" customClass="PlayCreationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iOH-Cl-5a4">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass_bg.jpg" id="z3K-rK-B9W" userLabel="BG Image">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="S3k-Lm-QtZ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="8xU-Qd-gue">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="b6W-oJ-YKC">
+                                <rect key="frame" x="615" y="60" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="ixS-qS-it9">
+                                <rect key="frame" x="243" y="61" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="2LZ-I7-lXr">
+                                <rect key="frame" x="832" y="159" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="lHu-pb-zU0">
+                                <rect key="frame" x="357" y="160" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="4GH-ue-kmx">
+                                <rect key="frame" x="515" y="160" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="CyR-N3-Xmi">
+                                <rect key="frame" x="743" y="260" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="YXU-8b-u5q">
+                                <rect key="frame" x="610" y="260" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="XnF-tF-5td">
+                                <rect key="frame" x="444" y="260" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="5cl-GN-n9r">
+                                <rect key="frame" x="276" y="258" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="YY3-Ns-Buu">
+                                <rect key="frame" x="136" y="256" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opposing_player_thumb.png" id="Yb8-iM-FAK">
+                                <rect key="frame" x="35" y="153" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QQE-PZ-3gl">
+                                <rect key="frame" x="0.0" y="78" width="124" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="marker_blue_closed.png"/>
+                                <connections>
+                                    <action selector="onClick:" destination="cu6-xI-yyb" eventType="touchUpInside" id="dCn-kS-bDh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YfG-Rt-dTW">
+                                <rect key="frame" x="0.0" y="127" width="124" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="marker_red_closed.png"/>
+                                <connections>
+                                    <action selector="onClick:" destination="cu6-xI-yyb" eventType="touchUpInside" id="Nlk-sz-olG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IYA-lf-FWW">
+                                <rect key="frame" x="0.0" y="176" width="124" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="marker_black_open.png"/>
+                                <connections>
+                                    <action selector="onClick:" destination="cu6-xI-yyb" eventType="touchUpInside" id="JFf-2J-hNH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TvK-Wm-TtB">
+                                <rect key="frame" x="0.0" y="235" width="124" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="dry_eraser.png"/>
+                                <connections>
+                                    <action selector="onClick:" destination="cu6-xI-yyb" eventType="touchUpInside" id="RXa-p8-uax"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="5EW-FR-IOM">
+                                <rect key="frame" x="186" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container2" id="avm-Ar-iY0"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="EEC-gT-GuH">
+                                <rect key="frame" x="290" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container3" id="7pe-3q-2NJ"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="zIn-a5-wZM">
+                                <rect key="frame" x="394" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container4" id="wY1-DM-btn"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="dCk-09-HOi">
+                                <rect key="frame" x="499" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container5" id="Dr1-ha-Ruo"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="0cF-qc-dTL">
+                                <rect key="frame" x="604" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container6" id="K0x-k6-Gaf"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="Oec-D1-JIe">
+                                <rect key="frame" x="709" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container7" id="eEF-zF-CZ9"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="omN-dK-vBM">
+                                <rect key="frame" x="448" y="597" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container11" id="ief-k7-5vw"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="Wnx-3d-yXB">
+                                <rect key="frame" x="82" y="365" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container1" id="cP8-Uq-1bj"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="I7G-Rb-jeF">
+                                <rect key="frame" x="448" y="481" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container9" id="O7A-fZ-eWg"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="eVP-YQ-eaR">
+                                <rect key="frame" x="762" y="481" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container10" id="A2g-RK-dTx"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="hRW-Jr-YYQ">
+                                <rect key="frame" x="136" y="481" width="89" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="JTf-KJ-A3d" kind="embed" identifier="container8" id="PX1-Ke-dTw"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" id="11u-el-IkN" userLabel="roster helper">
+                                <rect key="frame" x="352" y="110" width="320" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap any player to swap them out.            Tap anywhere else to cancel." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OIU-kn-RoD">
+                                        <rect key="frame" x="30" y="-43" width="264" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="players match the" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9oq-hO-v6M">
+                                        <rect key="frame" x="101" y="-8" width="206" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="position you selected." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mRp-ov-EtG">
+                                        <rect key="frame" x="55" y="11" width="206" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highlighted" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GiF-En-Vpn">
+                                        <rect key="frame" x="30" y="56" width="100" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="18"/>
+                                        <color key="textColor" red="0.42352941176470588" green="0.5490196078431373" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="LDw-OW-vIc" userLabel="dark overlay">
+                                <rect key="frame" x="0.0" y="44" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Player Name" minimumFontSize="17" id="gsE-nm-ADi">
+                                        <rect key="frame" x="414" y="138" width="197" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="done"/>
+                                    </textField>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="BaD-cb-9zV">
+                        <barButtonItem key="rightBarButtonItem" image="settings_icon.png" id="Ou7-ut-thI"/>
+                    </navigationItem>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bgImage" destination="z3K-rK-B9W" id="hqb-0a-pNO"/>
+                        <outlet property="blackButton" destination="IYA-lf-FWW" id="0Je-Dj-I2A"/>
+                        <outlet property="blueButton" destination="QQE-PZ-3gl" id="aSq-rj-PUe"/>
+                        <outlet property="container1" destination="Wnx-3d-yXB" id="e4G-X0-15X"/>
+                        <outlet property="container10" destination="eVP-YQ-eaR" id="hRi-5G-0JQ"/>
+                        <outlet property="container11" destination="omN-dK-vBM" id="G6G-ah-tdq"/>
+                        <outlet property="container2" destination="5EW-FR-IOM" id="yel-b2-cOB"/>
+                        <outlet property="container3" destination="EEC-gT-GuH" id="xWp-tW-ALQ"/>
+                        <outlet property="container4" destination="zIn-a5-wZM" id="UN3-ck-39h"/>
+                        <outlet property="container5" destination="dCk-09-HOi" id="UpZ-QL-Ysl"/>
+                        <outlet property="container6" destination="0cF-qc-dTL" id="OmQ-xM-4yG"/>
+                        <outlet property="container7" destination="Oec-D1-JIe" id="bXw-gM-VDH"/>
+                        <outlet property="container8" destination="hRW-Jr-YYQ" id="3Wh-Py-vMd"/>
+                        <outlet property="container9" destination="I7G-Rb-jeF" id="XDL-Ks-SEu"/>
+                        <outlet property="darkOverlay" destination="LDw-OW-vIc" id="Ruw-Ow-PaP"/>
+                        <outlet property="drawingCanvas" destination="S3k-Lm-QtZ" id="ifb-9E-d5S"/>
+                        <outlet property="eraserButton" destination="TvK-Wm-TtB" id="Kbr-1i-9xD"/>
+                        <outlet property="nameField" destination="gsE-nm-ADi" id="lo0-jZ-KGQ"/>
+                        <outlet property="opposingPlayer1" destination="Yb8-iM-FAK" id="2mH-j4-68l"/>
+                        <outlet property="opposingPlayer10" destination="CyR-N3-Xmi" id="93q-4E-Nzx"/>
+                        <outlet property="opposingPlayer11" destination="2LZ-I7-lXr" id="cQm-AE-7mD"/>
+                        <outlet property="opposingPlayer2" destination="YY3-Ns-Buu" id="8FL-lP-O88"/>
+                        <outlet property="opposingPlayer3" destination="ixS-qS-it9" id="Dyt-gr-Vut"/>
+                        <outlet property="opposingPlayer4" destination="5cl-GN-n9r" id="bhS-HP-9c7"/>
+                        <outlet property="opposingPlayer5" destination="lHu-pb-zU0" id="qP5-gY-7OJ"/>
+                        <outlet property="opposingPlayer6" destination="XnF-tF-5td" id="h7t-ly-2eC"/>
+                        <outlet property="opposingPlayer7" destination="4GH-ue-kmx" id="EBE-7H-dRC"/>
+                        <outlet property="opposingPlayer8" destination="b6W-oJ-YKC" id="5lR-fc-tdi"/>
+                        <outlet property="opposingPlayer9" destination="YXU-8b-u5q" id="ygm-Vv-LA3"/>
+                        <outlet property="redButton" destination="YfG-Rt-dTW" id="73M-oC-flw"/>
+                        <outlet property="rosterHelper" destination="11u-el-IkN" id="B5r-FF-db8"/>
+                        <outlet property="tempCanvas" destination="8xU-Qd-gue" id="NKi-T3-sEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peO-Bc-ybK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338.88" y="761.60000000000002"/>
+        </scene>
+        <!--Player Token View Controller-->
+        <scene sceneID="wLc-bO-iru">
+            <objects>
+                <viewController storyboardIdentifier="PlayerToken" automaticallyAdjustsScrollViewInsets="NO" id="JTf-KJ-A3d" customClass="PlayerTokenViewController" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="skG-Pf-VNR">
+                        <rect key="frame" x="0.0" y="0.0" width="89" height="108"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uqz-mw-oNd">
+                                <rect key="frame" x="-2" y="72" width="92" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Amble-Bold" family="Amble" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player_silhouette.png" id="w2P-Br-lHa">
+                                <rect key="frame" x="0.0" y="0.0" width="89" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.81960784313725488" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="nameHolder" destination="Uqz-mw-oNd" id="3I9-yM-56S"/>
+                        <outlet property="playerPicture" destination="w2P-Br-lHa" id="TXv-WT-tpM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDs-LG-cqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1039.2" y="1646.0800000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3_4_opposing_tile.png" width="100" height="100"/>
+        <image name="46_opposing_tile.png" width="100" height="100"/>
+        <image name="4_3_opposing_tile.png" width="100" height="100"/>
+        <image name="Button_Bg.png" width="300" height="100"/>
+        <image name="Grass_bg.jpg" width="2048" height="1536"/>
+        <image name="book_selection_bg.png" width="613" height="568"/>
+        <image name="chalkboard_bg.jpg" width="2048" height="1536"/>
+        <image name="close_btn.png" width="50" height="50"/>
+        <image name="cloud_btn.png" width="200" height="200"/>
+        <image name="copy_icon.png" width="150" height="150"/>
+        <image name="defense_button.png" width="300" height="100"/>
+        <image name="delete_icon.png" width="150" height="150"/>
+        <image name="dry_eraser.png" width="124" height="68"/>
+        <image name="help_btn.png" width="200" height="200"/>
+        <image name="i_formation_tile.png" width="100" height="100"/>
+        <image name="initial_tutorial.png" width="2048" height="1536"/>
+        <image name="launch_bg.jpg" width="2048" height="1536"/>
+        <image name="marker_black_open.png" width="124" height="68"/>
+        <image name="marker_blue_closed.png" width="124" height="68"/>
+        <image name="marker_red_closed.png" width="124" height="68"/>
+        <image name="modified_logo_noBG.png" width="700" height="200"/>
+        <image name="new_button.png" width="300" height="100"/>
+        <image name="offense_button.png" width="300" height="100"/>
+        <image name="opposing_player_thumb.png" width="89" height="74"/>
+        <image name="play_selection.png" width="2048" height="1536"/>
+        <image name="player_silhouette.png" width="89" height="74"/>
+        <image name="roster_bg.jpg" width="2048" height="1536"/>
+        <image name="roster_button.png" width="200" height="200"/>
+        <image name="settings_icon.png" width="22" height="22"/>
+        <image name="spread_formation_tile.png" width="100" height="100"/>
+        <image name="t_formation_tile.png" width="100" height="100"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cP8-Uq-1bj"/>
+    </inferredMetricsTieBreakers>
+</document>
